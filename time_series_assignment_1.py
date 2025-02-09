@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Read the Excel file
-data = pd.read_excel('/Users/martachejduk/Documents/01 ECONOMETRICS/Time Series/Assignment 1/Nile.xlsx')
+data = pd.read_excel('/Users/putthenilefilehere.xlsx')
 y = data.iloc[:, 1].values  # Nile values
 
 # Initialize parameters
